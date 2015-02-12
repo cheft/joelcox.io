@@ -14,7 +14,7 @@
     var colors = plug.util.colors;
     var env = plug.util.env;
     var log = plug.util.log;
-    var port = process.env.PORT || 9000;
+    var port = process.env.PORT || 7200;
     var bower = require('main-bower-files');
 
     Utils.vendor = {};

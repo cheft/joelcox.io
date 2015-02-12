@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
         .to($nav, 0, {autoAlpha:1, delay:4.7})
         .from($nav, 1, {y:'-100%', delay:1}) // 1 sec
         .from($navInner, 0.5, {x: '-100%'})
-        .from($navHeader, 1, {width:0}, 1)
+        // .from($navHeader, 1, {width:0}, 1)
         // .from($userIcon, 0.5, {width:0, height:0, autoAlpha:0, rotation:180}, 1)
         .staggerFrom($navText, 0.5, {autoAlpha:0, rotationX:180}, 0.2)
 

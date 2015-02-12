@@ -1,22 +1,26 @@
 <blockquote>
-    <div class="b-icon">
-        <i class="mdi-communication-phone red-text accent-2"></i>
-    </div>
-    <div class="b-text">
-        <span>{{app.phone}}</span>
-    </div>
+    <a href="call:{{app.phone}}" class="blockquote">
+        <div class="b-icon">
+            <i class="mdi-communication-phone orange-text accent-2"></i>
+        </div>
+        <div class="b-text">
+            <span>{{app.phone}}</span>
+        </div>
+    </a>
+</blockquote>
+<blockquote>
+    <a href="mailTo:{{app.phone}}" class="blockquote">
+        <div class="b-icon">
+            <i class="mdi-communication-email orange-text accent-2"></i>
+        </div>
+        <div class="b-text">
+            <span>{{app.email}}</span>
+        </div>
+    </a>
 </blockquote>
 <blockquote>
     <div class="b-icon">
-        <i class="mdi-communication-email red-text accent-2"></i>
-    </div>
-    <div class="b-text">
-        <span>{{app.email}}</span>
-    </div>
-</blockquote>
-<blockquote>
-    <div class="b-icon">
-        <i class="mdi-action-home red-text accent-2"></i>
+        <i class="mdi-action-home orange-text accent-2"></i>
     </div>
     <div class="b-text">
         <div>{{app.address}}</div>

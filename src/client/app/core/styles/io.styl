@@ -8,7 +8,7 @@ center-flex(values, justify=center, align=center)
   justify-content(justify)
   align-items(align)
 
-blockquote
+blockquote, .blockquote
   border-color lightgrey
   margin 0
   center-flex(1 0 auto)
@@ -67,9 +67,9 @@ blockquote
 
 .io-content-header
   box-shadow($shadow-small)
-  padding-top 100px
-  max-height 250px
-  min-height 250px
+  padding-top 50px
+  max-height 200px
+  min-height 200px
   width 100%
   padding-left 50px
 
@@ -257,7 +257,7 @@ blockquote
 
 @media only screen and (max-width 460px) and (min-width 0px)
 
-  blockquote
+  blockquote, .blockquote
     font-size 12px
 
   .io-content-header
