@@ -142,9 +142,9 @@
         log('Compressing, caching, and copying images');
         return gulp
             .src(paths.images)
-            .pipe(plug.imagemin({
-                optimizationLevel: 3
-            }))
+            // .pipe(plug.imagemin({
+            //     optimizationLevel: 3
+            // }))
             .pipe(gulp.dest('./build/content/images/'));
     };
 
